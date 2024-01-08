@@ -1,14 +1,20 @@
 /* Common Shared styles */
 body {
     font-family: 'Merriweather', serif;
-  }
+}
+
+.text-primary {
+    color: red;
+}
 
 /* nav related styles */
 nav {
     display: flex;
-    height: 300px; /* Adjust the height as needed */
+    height: 300px;
+    /* Adjust the height as needed */
+    justify-content: space-between;
 
-    
+
 }
 
 .nav-image {
@@ -16,11 +22,13 @@ nav {
     border-radius: 16px;
     width: 1000px;
     height: 500px;
-    margin: 15px 120px; 
+    margin: 15px 120px;
     flex-shrink: 0;
     position: relative;
-    background-size: cover; /* Add this line */
-    background-position: center; /* Add this line */
+    background-size: cover;
+    /* Add this line */
+    background-position: center;
+    /* Add this line */
 
 }
 
@@ -32,31 +40,251 @@ nav {
     transform: translate(-50%, -50%);
     text-align: center;
 
-    
-  }
-.nav-para{
+
+}
+
+.nav-para {
     color: #FFF;
     text-align: center;
     font-family: Merriweather;
     font-size: 32px;
     font-weight: 400;
     line-height: normal;
+    margin-bottom: 5px;
+    /* Adjust as needed */
+
 }
+
 .nav-heading {
     width: 632px;
     color: #fff;
     text-align: center;
     font-size: 72px;
     font-weight: 900;
-    line-height: 95px; 
+    line-height: 95px;
+    margin-top: 5px;
+    /* Adjust as needed */
 
 }
-.main-title{
+
+/* main section  styles */
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+main section {
+    margin-top: 250px;
+
+}
+
+.main-title {
     color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 2px;
+
+}
+
+.content-one p {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 5px;
+
+
+}
+
+.content-one h4 {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 5px;
+
+}
+
+.content-one img {
+    width: 702.9px;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+    background-color: #FFF;
+    display: block;
+    margin: auto;
+
+}
+
+.content-two {
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Vectorrr.png');
+    border-radius: 16px;
+    width: 1000px;
+    height: 500px;
+    margin: 15px 120px;
+    flex-shrink: 0;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+
+
+}
+
+.left-content {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.left-content h3 {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 40px;
+    font-weight: 900;
+    letter-spacing: 7.04px;
+    margin-top: 80px;
+}
+
+.left-content p {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.btn-one {
+    background: none;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+    text-align: center;}
+
+.right-content {
+    flex: 1;
+    width: 319.83px;
+    height: 464.662px;
+    padding: 20px 0px 0px 0px;
+    margin-left: 120px;
+
+}
+
+.content-three{
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    border-radius: 16px;
+    width: 1000px;
+    height: 500px;
+    margin: 15px 120px;
+    flex-shrink: 0;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    margin-top: 5px;
+
+
+
+}
+.content-three .first{
+   padding-top: 100px ; 
+}
+
+
+.content-three p
+{
 text-align: center;
 font-family: Inter;
-font-size: 88px;
+font-size: 30px;
 font-style: normal;
-font-weight: 700;
-line-height: normal;
+font-weight: 600;
+line-height: 56px; /* 175% */
+text-transform: capitalize;
+}
+
+.btn-two {
+    background: red;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+    text-align: center;
+    border-radius: 16px;
+
+}
+.content-four {
+    width: 1000px;
+    height: 500px;
+    margin: 15px 120px;
+    flex-shrink: 0;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+
+.first-content h6{
+    color: #F00;
+    font-size:20px;
+    margin-bottom: 5px;
+}
+.first-content h3{
+    color: black;
+    font-size: 40px;
+    font-weight: 900;
+    margin-top: 80px;
+    margin-top: 2px;
+}
+.first-content p{
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
+}
+.second-content img {
+    
+   
+}
+.third-content h3{
+    color: #F00;
+    font-size:20px;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+.third-content p {
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
+}
+
+.content-four .first-content,
+.second-content,
+.third-content {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.content-five{
+    width: 1000px;
+    height: 500px;
+    margin: 15px 120px;
+    flex-shrink: 0;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
 }
