@@ -285,6 +285,19 @@ main section {
     margin-right: 20px;
 }
 
+.second-content-circle {
+
+    border-radius: 400px;
+    border: 10px solid #F00;
+
+}
+
+.second-content img {
+    border-radius: 463px;
+    border: 15px solid white;
+
+}
+
 .content-five {
     width: 1000px;
     height: 500px;
@@ -294,6 +307,35 @@ main section {
     background-size: cover;
     background-position: center;
     text-align: center;
+}
+.content-five-image{
+    position: relative;
+}
+.dress {
+    
+    margin-left: 320px;
+    margin-bottom: 0px;
+    
+    
+}
+
+.discount {
+
+}
+
+.giftbox {
+    height: 500px;
+    margin: 15px 120px;
+    width: 500px;
+}
+
+.foot {
+    display: flex;
+    width: 1000px;
+    margin: 15px 120px;
+    border-radius: 16px;
+
+
 }
 
 .content-six {
@@ -450,22 +492,39 @@ main section {
 
 .footer-top {
     display: flex;
-    display: flex;
     align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    justify-content: space-between;
     text-align: center;
+    margin: 5px 0;
+
+
+}
+
+.address,
+.contact {
+    flex-basis: 45%;
+    /* Adjust the width of each div */
+    text-align: center;
+    padding: 10px;
 
 }
 
 .footer-bottom {
     display: flex;
     align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    justify-content: space-between;
     text-align: center;
+    margin: 10px 0;
 
 
+
+}
+
+.rights,
+.unsubscribe {
+    flex-basis: 45%;
+    /* Adjust the width of each div */
+    text-align: center;
 }
 
 .social-media {
@@ -475,32 +534,33 @@ main section {
     margin-top: 50px;
     margin-left: none;
     flex-shrink: 0;
-   
+
     /* Adjust the margin as needed */
 
 }
-.social-media img{
+
+.social-media img {
     margin-top: 30px;
     margin-bottom: 30px;
     margin-left: 10px;
 }
-.address p ,
+
+.address p,
 .rights p,
-.contact p{
- color: #FFF;
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 500;
-line-height: 40px; /* 166.667% */
+.contact p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    /* 166.667% */
 
 }
 
 
 
-
-
-.unsubscribe-btn{
+.unsubscribe-btn {
     color: white;
     background: #070211;
     border: none;
