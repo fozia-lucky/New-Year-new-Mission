@@ -328,7 +328,7 @@ main section {
     margin-right: 30px;
     position: absolute;
     top: -300px;
-    right: 0px;
+    right: -10px;
 
 
     
@@ -363,7 +363,6 @@ main section {
     display: flex;
     width: 1000px;
     margin: 15px 120px;
-    border-radius: 16px;
     position: absolute;
     
     
